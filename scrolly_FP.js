@@ -64,7 +64,7 @@ let grid = () => {
       
         var legendLinear = d3.legendColor()
             .shapeWidth(30)
-            .cells(5)
+            .cells([0, 0.05, 0.1, 0.15, 0.2])
             .orient('horizontal')
             .scale(linear);
         
