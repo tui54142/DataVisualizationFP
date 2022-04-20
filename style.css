@@ -15,6 +15,7 @@ body{
     height: 500px;
     top: 75px;
     float: right;
+    padding: 300px 0px;
 }
 
 #container {
@@ -31,11 +32,19 @@ body{
 #container > div {
     height: 1200px;
     display: block;
-    padding: 0 45px;
+    padding: 200px 45px;
   }
 
 
 .tick > line {
     color: rgb(194, 194, 194);
     opacity: 0.5;
+}
+
+.titleStyle {
+    text-align: center;
+}
+
+.district:hover {
+    background-color:red;
 }
