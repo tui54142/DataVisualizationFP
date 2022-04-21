@@ -1,2 +1,0 @@
-# DataVisualizationFP
-Final Project
