@@ -6,6 +6,7 @@ let filler = () => {
 
 }
 let grid = () => {
+    console.log("Creating Obesity Map");
     var width = 400,
         height = 400;
     Promise.all([
@@ -56,7 +57,7 @@ let grid = () => {
 
             //TRYING TOO TIPS HOVER FUNCTION
 
-            .on('mouseover', (event, d) => { //when mouse is over point
+            .on('click', (event, d) => { //when mouse is over point
                 console.log("mouseover SUCCESS");
                 d3.select(event.currentTarget) //add a stroke to highlighted point 
                     .style("stroke", "red")
@@ -126,7 +127,7 @@ function scroll(n, offset, func1, func2) {
 
 //triger these functions on page scroll
 new scroll('div1_Map', '75%', grid, filler);  //create a grid for div2
-new scroll('div2_Barchart', "75%", grid2, grid); //create a grid for div3
+new scroll('div2_Barchart', '75%', grid2, grid); //create a grid for div3
 new scroll("div3_WrapUp", "75%", grid3, grid2);
 
 /*title();*/
