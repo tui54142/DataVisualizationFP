@@ -30,17 +30,22 @@
     <div class="titleStyle">
         <h1>Food Access and Obesity in Philadelphia</h1>
     </div>
+
+    <div id="problem">
+        <h3>Problem</h3>
+        <p>
+            Philadelphia's obesity rate is ranked 9th in the nation and by displaying
+            the disparities between neighborhoods and their access to fresh food we hope
+            to address the importance and need for access to healthier options within
+            lower-income neighborhoods.
+        </p>
+    </div>
+
     <div id="container">
         <div id="div1_Map">
             <h2>Map of Philadelphia Districts and Their % Levels of Obesity</h2>
-            <br/>
-            <h3><strong>Problem:</strong></h3>
-            <p>
-                Philadelphia's obesity rate is ranked 9th in the nation and by displaying 
-                the disparities between neighborhoods and their access to fresh food we hope 
-                to address the importance and need for access to healthier options within 
-                lower-income neighborhoods.
-            </p>
+            <p>Hover your mouse on the map to to view District name and its average % of obesity level</p>
+            <br />
             <div id="tooltip_Map"></div>
         </div>
         <div id="div2_Scatter">
@@ -48,21 +53,24 @@
             <p>Hover your mouse on a point to view District name and its obesity level</p>
             <div id="tooltip-scatter"></div>
         </div>
-        <div id="div3_WrapUp">
-            <h3><strong>Impact on Community:</strong></h3>
-            <p>
-                As a result of not having access to places that sell and provide healthy
-                and nutritious food within close distance to their neighborhoods, the corner
-                stores and small food markets that residents are able to easily access sell
-                food that is inexpensive, however, extremely unhealthy. Implementing fresh,
-                accessible and affordable food options within lower-income neighborhoods across
-                Philadelphia ranking 9th in the nation regarding obesity will hopefully begin to drop.
-            </p>
+        <div id="removeall">
         </div>
     </div>
 
     <div class="fixed">
         <svg id="canvas"></svg>
+    </div>
+
+    <div id="div3_WrapUp">
+        <h3 class="h3_WrapUp">Impact on Community</h3>
+        <p class="p_WrapUp">
+            As a result of not having access to places that sell and provide healthy
+            and nutritious food within close distance to their neighborhoods, the corner
+            stores and small food markets that residents are able to easily access sell
+            food that is inexpensive, however, extremely unhealthy. Implementing fresh,
+            accessible and affordable food options within lower-income neighborhoods across
+            Philadelphia ranking 9th in the nation regarding obesity will hopefully begin to drop.
+        </p>
     </div>
 
     <!-- load our custom D3 code (must happen after D3 is loaded) -->

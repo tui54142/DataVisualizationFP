@@ -13,9 +13,8 @@ body {
     position: fixed;
     height: 500px;
     float: right;
-    top: 75px;
+    padding-top: 5%;
     padding-left: 15%;
-    padding-top: 10%;
 }
 
 #canvas {
@@ -32,25 +31,55 @@ body {
     line-height: 1.5;
 }
 
-#container > div {
-    height: 800px;
-    display: block;
-    /*padding: 200px 45px;*/
-  }
+    #container > div {
+        /*height: 800px;*/
+        display: block;
+        /*padding: 200px 45px;*/
+    }
 
+
+
+#problem {
+    padding-top: 5%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+    #problem p {
+        font-size: 1.5rem;
+    }
+#problem h3 {
+    font-weight: bold;
+    text-align: center;
+}
 
 #div1_Map {
     padding-right: 15%;
-    padding-top: 25%;
+    padding-top: 30%;
+    padding-bottom: 500px;
+    padding-left: 5%;
 }
 
-#div2_Barchart {
+#div2_Scatter {
     padding-right: 15%;
+    padding-bottom: 500px;
+    padding-left: 10%;
 }
 
 #div3_WrapUp {
+    padding-top: 130%;
     padding-right: 15%;
+    padding-left: 15%;
 }
+    #div3_WrapUp p {
+        font-size: 1.5rem;
+    }
+
+.h3_WrapUp {
+    font-weight: bold;
+    text-align: center;
+}
+
 
 .tick > line {
     color: rgb(194, 194, 194);
@@ -59,6 +88,8 @@ body {
 
 .titleStyle {
     text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 .district:hover {
@@ -69,7 +100,11 @@ body {
     padding-top: 5%;
 }
 
+#tooltip-scatter {
+    padding-top: 5%;
+}
+
 #fixed_footer {
     width: 100%;
-    margin-top: 3000px;
+    margin-top: 300px;
 }
